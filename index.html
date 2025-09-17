@@ -1,0 +1,133 @@
+<!DOCTYPE html> 
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="description"
+        content="OHCF is a curriculum-based reinforcement learning method to harmonize team goals and individual goals.">
+  <meta name="keywords" content="OHCF, curriculum MARL for objective harmonization">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>OHCF</title>
+
+  <script>
+    window.dataLayer = window.dataLayer || [];
+
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+
+    gtag('js', new Date());
+
+    gtag('config', 'G-PYVRSFMDRL');
+  </script>
+
+  <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
+        rel="stylesheet">
+
+  <link rel="stylesheet" href="./static/css/bulma.min.css">
+  <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+  <link rel="stylesheet" href="./static/css/index.css">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
+<body>
+
+
+<section class="hero">
+  <div class="hero-body">
+    <div class="container is-max-desktop">
+      <div class="columns is-centered">
+        <div class="column has-text-centered">
+          <h1 class="title is-1 publication-title">Harmonizing Team and Individual Goals in Decentralized Multi-Robot Fire Suppression through Curriculum Reinforcement Learning</h1>
+          <div class="column has-text-centered">
+            <div class="publication-links">
+              <!-- PDF Link. -->
+              <span class="link-block">
+                <a href=""
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+                      <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 14.25v-2.625a3.375 3.375 0 0 0-3.375-3.375h-1.5A1.125 1.125 0 0 1 13.5 7.125v-1.5a3.375 3.375 0 0 0-3.375-3.375H8.25m2.25 0H5.625c-.621 0-1.125.504-1.125 1.125v17.25c0 .621.504 1.125 1.125 1.125h12.75c.621 0 1.125-.504 1.125-1.125V11.25a9 9 0 0 0-9-9Z" />
+                    </svg>
+                  </span>
+                  <span>Paper</span>
+                </a>
+              </span>
+            </div>
+          </div>
+
+          <div class="column has-text-centered">
+            <!-- <div class="is-size-5 publication-venue">
+                
+            </div> -->
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container is-max-desktop">
+    <!-- Abstract. -->
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-max-desktop">
+        <h2 class="title is-3">Abstract</h2>
+        <div class="content has-text-justified">
+          <p>
+            Coordinating multi-robot systems is essential for
+            addressing complex real-world scenarios such as autonomous
+            fire suppression. To effectively combat fires that may be
+            geographically dispersed, robots must possess independent
+            autonomous capabilities while also being able to form
+            collaborative teams to handle larger, more intense fires. A
+            key challenge is the inherent conflict between the overall
+            team goal of suppressing all fires as quickly as possible
+            and the individual robot goals, which aim to maximize the
+            amount of fire each robot suppresses. To explicitly address
+            this, we propose \textit{Objective Harmonization Curriculum
+            for Fire Suppression} (OHCF), a method that integrates
+            curriculum learning with multi-agent reinforcement learning
+            (MARL). We design a novel three-stage curriculum that
+            guides the learning process by initially prioritizing
+            individual objectives to build foundational skills, then
+            gradually shifting the reward structure to emphasize the
+            collective goal, and finally refining the policy to
+            optimize efficient team coordination. Through dynamically
+            balancing individual and team-based rewards during
+            training, our approach explicitly harmonizes these
+            conflicting objectives, enabling robots to learn not only
+            when to act alone but also when to collaborate. Our method
+            also facilitates adaptive subteaming and supports fully
+            decentralized execution in physical multi-robot systems.
+            Experimental results show that our approach effectively
+            harmonizes team and individual goals for multi-robot fire
+            suppression and outperforms baseline methods. 
+          </p>
+        </div>
+      </div>
+    </div>
+    <!--/ Abstract. -->
+  </div>
+</section>
+
+
+<footer class="footer">
+  <div class="container">
+    <div class="columns is-centered">
+      <div class="column is-8">
+        <div class="content">
+          <p>
+            This website is adapted from <a href="https://github.com/nerfies/nerfies.github.io">Nerfies</a>, licensed
+            under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative
+            Commons Attribution-ShareAlike 4.0 International License</a>.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>
